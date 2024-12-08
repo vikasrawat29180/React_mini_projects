@@ -3,6 +3,7 @@ import "./App.css";
 import ToastCon from "./ToastCon";
 import StarComponent from "./StarComponent";
 import Post from "./Post";
+import Otp from "./Otp/Otp";
 // import StarComponent from "../../starrating/src/StarComponent";
 
 function App() {
@@ -12,7 +13,11 @@ function App() {
 {/* <StarComponent>hi</StarComponent>
  */}
 
- <Post></Post>
+ {/* <Post></Post>
+ 
+ */}
+ <Otp></Otp>
+
     </div>
   );
 }
