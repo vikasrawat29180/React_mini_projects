@@ -1,0 +1,56 @@
+.Toast-Container{
+    position: fixed;
+    top: .5rem;
+    right: .5rem;
+}
+
+
+
+
+.toast{
+   
+    background-color: green;
+width: 12rem;
+height: 3rem;
+padding: .5rem;
+top: .5rem;
+border-radius: 0.5rem;
+color: white;
+animation: slide 1s 1;
+margin: 0.5rem;
+span{
+    position: absolute;
+    right: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+
+}
+
+.success{
+    background-color: rgba(30, 253, 127, 0.809);
+}
+.warning{
+    background-color: rgb(254, 158, 47);
+}
+.info{
+    background-color: rgb(115, 248, 253);
+}
+.error{
+    background-color: rgb(245, 73, 73);
+}
+
+
+
+
+@keyframes slide {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+    
+}
